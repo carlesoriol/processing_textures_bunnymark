@@ -33,7 +33,7 @@ Bunny[] bunnies;
 
 void setup() 
 {
-    size(800, 450); surface.setTitle("Processing [textures] example - bunnymark");
+    size(800, 450, P3D); surface.setTitle("Processing [textures] example - bunnymark");
     
     // Load bunny texture
     texBunny = loadImage("wabbit_alpha.png");  // Load the image into the program
